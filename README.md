@@ -18,7 +18,7 @@ AI/ML + Full-Stack Developer in progress.
 I learn by building, debugging and shipping practical projects.
 ```
 
-## `[ SYS ] TECH MATRIX`
+## `TECH MATRIX`
 
 | Layer | Stack |
 |---|---|
@@ -29,7 +29,7 @@ I learn by building, debugging and shipping practical projects.
 | AI / Data | NumPy • Pandas • Matplotlib • Scikit-learn |
 | Tools | Git • GitHub • VS Code • Android Studio |
 
-## `[ SYS ] BUILDING`
+## `BUILDING`
 
 - 🧠 AI-powered applications
 - 📱 React Native mobile projects
@@ -37,28 +37,26 @@ I learn by building, debugging and shipping practical projects.
 - 🧩 DSA + problem solving
 - 🚀 Better GitHub projects and open-source habits
 
-## `[ SYS ] PROJECTS`
+## `PROJECTS`
 
-### 🧠 Resume Analyzer
+### Resume Analyzer
 AI-assisted resume analysis project.
 
 **Stack:** TypeScript • React • Vite • Tailwind • Supabase
 
 → [Repository](https://github.com/aryan200611/Resume-Analyzer)
 
-### 🐼 Pandas / Data Practice
+### Pandas / Data Practice
 Python and Pandas learning and data-analysis work.
 
 → [Repository](https://github.com/aryan200611/Pandas)
 
-### 🚶 Walk2Earn
+### Walk2Earn
 React Native rewards-app concept using activity tracking, wallet/transactions and Firebase.
 
 **Stack:** React Native • Expo • Firebase • AsyncStorage
 
 ---
-
-## `[ SYS ] GITHUB 3D / ACTIVITY`
 
 <div align="center">
   <img
@@ -68,12 +66,11 @@ React Native rewards-app concept using activity tracking, wallet/transactions an
   />
 </div>
 
-## `[ SYS ] GITHUB METRICS`
+## `GITHUB METRICS`
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=aryan200611&show_icons=true&hide_border=true&bg_color=050914&title_color=00e5ff&text_color=d7e3ee&icon_color=7c3aed" width="48%">
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=aryan200611&layout=compact&hide_border=true&bg_color=050914&title_color=00e5ff&text_color=d7e3ee" width="48%">
+
 
 <br><br>
 
