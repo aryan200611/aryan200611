@@ -8,7 +8,7 @@
 
 </div>
 
-## `> whoami`
+## `About`
 
 ```text
 Aryan Chowdhary
