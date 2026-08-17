@@ -4,8 +4,6 @@
 
 <br><br>
 
-<img src="https://komarev.com/ghpvc/?username=aryan200611&label=PROFILE%20VIEWS&color=00e5ff&style=for-the-badge" alt="Profile views">
-
 </div>
 
 ## `About`
