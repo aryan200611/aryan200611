@@ -61,9 +61,11 @@ React Native rewards-app concept using activity tracking, wallet/transactions an
 ## `[ SYS ] GITHUB 3D / ACTIVITY`
 
 <div align="center">
-
-<img src="./assets/github-contribution-grid-snake.svg" alt="Animated GitHub contribution snake" width="100%">
-
+  <img
+    src="./assets/github-contribution-grid-snake.svg"
+    width="100%"
+    alt="GitHub Contribution Snake"
+  />
 </div>
 
 ## `[ SYS ] GITHUB METRICS`
