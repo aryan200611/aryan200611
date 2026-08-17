@@ -5,11 +5,17 @@ on:
   schedule:
     - cron: "0 0 * * *"
 
+permissions:
+  contents: write
+
 jobs:
   generate:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
       - name: Generate snake animation
         uses: Platane/snk@v3
         with:
@@ -21,5 +27,5 @@ jobs:
       - name: Push snake files
         uses: EndBug/add-and-commit@v9
         with:
-          message: "Update contribution snake"
+          message: "chore: update contribution snake"
           add: "assets/*.svg"
