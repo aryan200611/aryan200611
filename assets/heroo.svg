@@ -1,0 +1,196 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="500" viewBox="0 0 1600 500">
+
+  <defs>
+
+    <!-- Background -->
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#030712"></stop>
+      <stop offset="55%" stop-color="#071525"></stop>
+      <stop offset="100%" stop-color="#10051d"></stop>
+    </linearGradient>
+
+    <!-- Neon gradient -->
+    <linearGradient id="neon" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00e5ff"></stop>
+      <stop offset="50%" stop-color="#7c3aed"></stop>
+      <stop offset="100%" stop-color="#00ff9d"></stop>
+    </linearGradient>
+
+    <!-- Grid -->
+    <pattern id="grid" width="50" height="50" patternUnits="userSpaceOnUse">
+
+      <path d="M50 0H0V50" fill="none" stroke="#18304a" stroke-width="1"></path>
+
+    </pattern>
+
+    <!-- Glow -->
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="6" result="blur"></feGaussianBlur>
+      <feMerge>
+        <feMergeNode in="blur"></feMergeNode>
+        <feMergeNode in="SourceGraphic"></feMergeNode>
+      </feMerge>
+    </filter>
+
+  </defs>
+
+
+  <!-- BACKGROUND -->
+
+  <rect width="1600" height="500" rx="24" fill="url(#bg)"></rect>
+
+  <rect width="1600" height="500" rx="24" fill="url(#grid)" opacity="0.75"></rect>
+
+
+  <!-- BORDER -->
+
+  <rect x="10" y="10" width="1580" height="480" rx="22" fill="none" stroke="url(#neon)" stroke-width="2"></rect>
+
+
+  <!-- NAME -->
+
+  <text x="60" y="155" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="68" font-weight="700">
+
+    Aryan Chowdhary
+
+  </text>
+
+
+  <!-- ROLE -->
+
+  <text x="64" y="205" fill="#00e5ff" font-family="monospace" font-size="21">
+
+    B.TECH CSE • AI/ML • FULL-STACK
+
+  </text>
+
+
+  <!-- TERMINAL -->
+
+  <rect x="60" y="245" width="700" height="65" rx="12" fill="#02050b" stroke="#29465d" stroke-width="2"></rect>
+
+  <text x="90" y="285" fill="#00ff9d" font-family="monospace" font-size="18">
+
+    $ build --mode="learn • code • ship"
+
+  </text>
+
+
+  <!-- CORE SYSTEMS -->
+
+  <text x="950" y="150" fill="#a855f7" font-family="monospace" font-size="18">
+
+    CORE SYSTEMS
+
+  </text>
+
+  <text x="950" y="190" fill="#dbeafe" font-family="monospace" font-size="19">
+
+    C++ • Python • React
+
+  </text>
+
+  <text x="950" y="225" fill="#dbeafe" font-family="monospace" font-size="19">
+
+    Node • Firebase • ML
+
+  </text>
+
+  <text x="950" y="260" fill="#dbeafe" font-family="monospace" font-size="19">
+
+    Git • SQL • Data
+
+  </text>
+
+
+  <!-- RADAR -->
+
+  <circle cx="1450" cy="85" r="50" fill="none" stroke="#00e5ff" opacity="0.3"></circle>
+
+  <circle cx="1450" cy="85" r="32" fill="none" stroke="#7c3aed" opacity="0.6"></circle>
+
+  <circle cx="1450" cy="85" r="8" fill="#00ff9d" filter="url(#glow)">
+
+    <animate attributeName="r" values="7;12;7" dur="2s" repeatCount="indefinite"></animate>
+
+    <animate attributeName="opacity" values="1;0.4;1" dur="2s" repeatCount="indefinite"></animate>
+
+  </circle>
+
+
+  <!-- MAIN SNAKE PATH -->
+
+  <path id="snakePath" d="M50 390
+       C250 330 350 450 550 390
+       S850 320 1050 390
+       S1350 450 1550 350" fill="none" stroke="#142b40" stroke-width="12" stroke-linecap="round"></path>
+
+  <!-- NEON SNAKE -->
+
+  <path d="M50 390
+       C250 330 350 450 550 390
+       S850 320 1050 390
+       S1350 450 1550 350" fill="none" stroke="url(#neon)" stroke-width="6" stroke-linecap="round" stroke-dasharray="18 14">
+
+    <!-- MOVING DASHES -->
+
+    <animate attributeName="stroke-dashoffset" from="0" to="-64" dur="1.5s" repeatCount="indefinite"></animate>
+
+  </path>
+
+
+  <!-- MOVING SNAKE HEAD -->
+
+  <circle r="11" fill="#00ff9d" filter="url(#glow)">
+
+    <animateMotion dur="5s" repeatCount="indefinite" rotate="auto">
+
+      <mpath href="#snakePath"></mpath>
+
+    </animateMotion>
+
+  </circle>
+
+
+  <!-- SECOND MOVING NODE -->
+
+  <circle r="8" fill="#7c3aed" filter="url(#glow)">
+
+    <animateMotion dur="5s" begin="2.5s" repeatCount="indefinite" rotate="auto">
+
+      <mpath href="#snakePath"></mpath>
+
+    </animateMotion>
+
+  </circle>
+
+
+  <!-- TRAILING LIGHT -->
+
+  <circle r="5" fill="#00e5ff" filter="url(#glow)">
+
+    <animateMotion dur="5s" begin="4s" repeatCount="indefinite" rotate="auto">
+
+      <mpath href="#snakePath"></mpath>
+
+    </animateMotion>
+
+  </circle>
+
+
+  <!-- BOTTOM STATUS -->
+
+  <text x="60" y="450" fill="#00ff9d" font-family="monospace" font-size="14">
+
+    ● ONLINE
+
+  </text>
+
+  <text x="300" y="450" fill="#94a3b8" font-family="monospace" font-size="14">
+
+    BUILD / LEARN / SHIP
+
+  </text>
+
+
+</svg>
