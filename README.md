@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/hero.svg" width="100%" alt="Aryan Chowdhary 3D animated developer profile">
+<img src="./assets/heroo.svg" width="100%" alt="Aryan Chowdhary 3D animated developer profile">
 
 <br><br>
 
